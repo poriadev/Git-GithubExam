@@ -1,9 +1,17 @@
 public class DisplaySimpleFigureWithJava {
     public static void main(String[] args) { 
-        ninety();  
+        stars();
         System.out.println();
+        stars();
         ninety();
-        ninety();  
+        stars();  
+        System.out.println();
+        stars();
+        fourStar();
+        ninety();
+        ninety();
+        fourStar();
+        fourStar();  
     }
 
     public static void ninety() {
@@ -15,7 +23,7 @@ public class DisplaySimpleFigureWithJava {
         System.out.println("  *********  ");
         System.out.println("*************");
     }
-    
+
     public static void fourStar() {
         System.out.println("    *****    ");
     }
